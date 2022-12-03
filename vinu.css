@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 65px;
+}
+.logo{
+    display: flex;
+}
+.logo input{
+    width: 500px;
+    margin-left: 20px;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+    padding-left: 25px;
+}
+.links a{
+    text-decoration: none;
+    color: gainsboro;
+    margin: 0px 20px;
+
+}
+.links a:hover{
+    color: white;
+}
+.links button{
+
+    border: 0px;
+  /*  background-color: rgb(248, 68,100);*/
+  background: linear-gradient(orange,yellow,red);
+    padding: 6px 12px;
+    border-radius: 3px;
+    color: white;
+}
+.carcouse1{
+    background-color: lightgray;
+}
+.carcouse1 img{
+    margin: 10px 5px;
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+}
